@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🔓 SSL Renewals 🔓
+  id: 6ea278ec-2853-4b7c-9a60-b46b8a99a989
+  loglevel: INFO
+  name: SSL (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 6ea278ec-2853-4b7c-9a60-b46b8a99a989
+

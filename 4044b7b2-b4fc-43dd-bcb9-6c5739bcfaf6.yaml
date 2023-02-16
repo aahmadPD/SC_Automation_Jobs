@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🏙 SAP Management 🏙
+  id: 4044b7b2-b4fc-43dd-bcb9-6c5739bcfaf6
+  loglevel: INFO
+  name: SAP (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 4044b7b2-b4fc-43dd-bcb9-6c5739bcfaf6
+

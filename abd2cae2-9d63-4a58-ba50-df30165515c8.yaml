@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🩻 Diagnostics 🩻
+  id: abd2cae2-9d63-4a58-ba50-df30165515c8
+  loglevel: INFO
+  name: DIagnotics (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: abd2cae2-9d63-4a58-ba50-df30165515c8
+

@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 📝 Reporting 📝
+  id: 3943b534-09d9-4c04-9fd0-98ad277137dc
+  loglevel: INFO
+  name: Reporting (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 3943b534-09d9-4c04-9fd0-98ad277137dc
+

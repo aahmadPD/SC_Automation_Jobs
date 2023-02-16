@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: ⌛️ Triage ⌛️
+  id: 444d7555-4525-4588-a82a-121698fd46e3
+  loglevel: INFO
+  name: T (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 444d7555-4525-4588-a82a-121698fd46e3
+

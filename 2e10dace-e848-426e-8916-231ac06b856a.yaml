@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🗄 Infrastructure Provisioning 🗄
+  id: 2e10dace-e848-426e-8916-231ac06b856a
+  loglevel: INFO
+  name: IP (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 2e10dace-e848-426e-8916-231ac06b856a
+

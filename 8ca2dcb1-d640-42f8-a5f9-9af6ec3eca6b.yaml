@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🛝 Sandbox Environments 🛝
+  id: 8ca2dcb1-d640-42f8-a5f9-9af6ec3eca6b
+  loglevel: INFO
+  name: Sleep
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 8ca2dcb1-d640-42f8-a5f9-9af6ec3eca6b
+

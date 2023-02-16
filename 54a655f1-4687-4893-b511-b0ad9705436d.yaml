@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🛢 Database Management 🛢
+  id: 54a655f1-4687-4893-b511-b0ad9705436d
+  loglevel: INFO
+  name: DB (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 54a655f1-4687-4893-b511-b0ad9705436d
+

@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🔐 Patching 🔐
+  id: ae49c666-dbba-433f-89bf-897a17008f08
+  loglevel: INFO
+  name: Patching (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: ae49c666-dbba-433f-89bf-897a17008f08
+

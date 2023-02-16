@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: ♻️ Decomissioning ♻️
+  id: bab7ccbc-8dcd-49c3-89c5-9f322f48d81f
+  loglevel: INFO
+  name: D (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: bab7ccbc-8dcd-49c3-89c5-9f322f48d81f
+

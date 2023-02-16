@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 👥 Active Directory Management 👥
+  id: 0351faab-fb46-470a-b095-38c6338c1419
+  loglevel: INFO
+  name: AD (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 0351faab-fb46-470a-b095-38c6338c1419
+

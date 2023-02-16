@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🏥 Remediation 🏥
+  id: 20f06b3d-a83c-4433-9cce-ddd289805606
+  loglevel: INFO
+  name: Remediation (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 20f06b3d-a83c-4433-9cce-ddd289805606
+

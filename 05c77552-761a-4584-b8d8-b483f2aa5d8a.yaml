@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🗜 Batch Jobs 🗜
+  id: 05c77552-761a-4584-b8d8-b483f2aa5d8a
+  loglevel: INFO
+  name: Batch Jobs (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 05c77552-761a-4584-b8d8-b483f2aa5d8a
+

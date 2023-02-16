@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: ☁️ Global Cloud Management ☁️
+  id: a7ef5e9d-1f1b-49de-bf1b-c3f0944e3328
+  loglevel: INFO
+  name: GCM (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: a7ef5e9d-1f1b-49de-bf1b-c3f0944e3328
+

@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 👤 User Management 👤
+  id: c39e58ae-6ac3-4ed4-823a-b0d0c6e34b3b
+  loglevel: INFO
+  name: UM (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: c39e58ae-6ac3-4ed4-823a-b0d0c6e34b3b
+

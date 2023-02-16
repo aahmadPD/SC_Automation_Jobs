@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: ✅ Deployments ✅
+  id: f7560d6e-56bf-4b77-97ae-5524f6098128
+  loglevel: INFO
+  name: ♾ Deployments (Sleep) ♾
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: f7560d6e-56bf-4b77-97ae-5524f6098128
+

@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🟩 Builds 🟩
+  id: 18cdc94c-8f10-4729-ad5f-447222e15e3e
+  loglevel: INFO
+  name: Builds (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 18cdc94c-8f10-4729-ad5f-447222e15e3e
+

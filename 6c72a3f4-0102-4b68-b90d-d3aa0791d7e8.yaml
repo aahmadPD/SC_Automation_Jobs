@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: ⚙️ Config Management ⚙️
+  id: 6c72a3f4-0102-4b68-b90d-d3aa0791d7e8
+  loglevel: INFO
+  name: CM (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 6c72a3f4-0102-4b68-b90d-d3aa0791d7e8
+

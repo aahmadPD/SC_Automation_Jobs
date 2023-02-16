@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 📞 Call Center Automation 📞
+  id: ac787112-e1d4-4f22-9777-b8c2dc841850
+  loglevel: INFO
+  name: CSA (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: ac787112-e1d4-4f22-9777-b8c2dc841850
+

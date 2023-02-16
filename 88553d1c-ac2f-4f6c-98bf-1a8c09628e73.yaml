@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: ⏱ Scheduled Jobs ⏱
+  id: 88553d1c-ac2f-4f6c-98bf-1a8c09628e73
+  loglevel: INFO
+  name: Scheduled Jobs (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 88553d1c-ac2f-4f6c-98bf-1a8c09628e73
+

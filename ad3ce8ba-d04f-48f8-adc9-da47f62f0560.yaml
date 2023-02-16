@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🟥 Ansible Playbooks 🟥
+  id: ad3ce8ba-d04f-48f8-adc9-da47f62f0560
+  loglevel: INFO
+  name: Ansible Playbooks (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: ad3ce8ba-d04f-48f8-adc9-da47f62f0560
+

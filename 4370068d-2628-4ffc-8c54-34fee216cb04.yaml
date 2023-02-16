@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🛠 Network Configuration 🛠
+  id: 4370068d-2628-4ffc-8c54-34fee216cb04
+  loglevel: INFO
+  name: NC (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 4370068d-2628-4ffc-8c54-34fee216cb04
+

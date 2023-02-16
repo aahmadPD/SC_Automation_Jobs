@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 🛟 Disaster Recovery 🛟
+  id: 698231e9-1044-4358-8d49-0f7dc41c6d6f
+  loglevel: INFO
+  name: DR (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 698231e9-1044-4358-8d49-0f7dc41c6d6f
+

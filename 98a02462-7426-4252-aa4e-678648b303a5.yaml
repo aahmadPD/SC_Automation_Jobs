@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: '🧮 Data Processing 🧮 '
+  id: 98a02462-7426-4252-aa4e-678648b303a5
+  loglevel: INFO
+  name: DP (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 98a02462-7426-4252-aa4e-678648b303a5
+

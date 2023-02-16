@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: false
+  group: 💾 Backups 💾
+  id: 8675dc8b-0408-472c-b763-b7a2f4cf7175
+  loglevel: INFO
+  name: Backups (Sleep)
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - configuration:
+        duration: '5'
+      nodeStep: false
+      type: sleep
+    keepgoing: false
+    strategy: node-first
+  uuid: 8675dc8b-0408-472c-b763-b7a2f4cf7175
+
