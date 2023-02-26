@@ -1,9 +1,14 @@
 - defaultTab: nodes
-  description: "Basic Harness Pipeline execution.\nTakes 6 parameters :-\n\nAPI Key\
-    \ - Will work with first or Next gen versions of Harness\nPipeline identifier\
-    \ \naccountIdentifier\norgIdentifier\nprojectIdentifier\n\nThis step will execute\
-    \ based on the above parameters\n"
-  executionEnabled: true
+  description: "Basic Harness Pipeline execution.\nWritten by: Justyn Roberts\n\n\
+    A simple example of triggering a Harness pipeline from a Workflow.\nThis could\
+    \ be used as part of a remediation/rebuild flow\n\nThis could be used as a starter\
+    \ for more complex interactions.\nTakes 6 parameters :-\n\n| Title | \n| --- |\n\
+    |Pipeline identifier  | \n|accountIdentifier  | \n|orgIdentifier  | \n|projectIdentifier\
+    \  | \n|API Key   | \n\nWill work with first or Next gen versions of Harness\n\
+    \n| Target Platform:| **OSS,PAOP,RBA** |\n\n\n|Assumptions:|\n| --- | \n| RBA\
+    \ has a Runner installed or PAOP | \n\n**Distribution**\n\n`Supplied as-is for\
+    \ reference. No implied functionality or support for this example.`"
+  executionEnabled: false
   group: 🛠 CD-CI Automation 🛠
   id: b3794b22-d4d4-44de-8441-0b26bc6173af
   loglevel: INFO
@@ -19,7 +24,7 @@
     valueExposed: true
   - description: |-
       Harness Account Identifier
-      Example: JFgX4u6QQYakhpP0ojs22
+      Example: JFgX4u6QQYakhpP0oxxx
     label: Account Identifier
     name: accountIdentifier
     required: true
@@ -35,7 +40,7 @@
     required: true
   - description: |-
       The ID of the Pipeline to exeute.
-      Example ID: Build_app_1671483280032
+      Example ID: Build_app_16714832800tt32
     label: Pipeline Identifier
     name: pipelineIdentifier
     required: true
@@ -46,7 +51,7 @@
     name: projectIdentifier
     required: true
   plugins:
-    ExecutionLifecycle: null
+    ExecutionLifecycle: {}
   scheduleEnabled: true
   schedules: []
   sequence:

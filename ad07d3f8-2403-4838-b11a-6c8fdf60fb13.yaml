@@ -16,15 +16,6 @@
   loglevel: INFO
   name: Restart Apache Service
   nodeFilterEditable: false
-  nodefilters:
-    dispatch:
-      excludePrecedence: true
-      keepgoing: true
-      rankOrder: ascending
-      successOnEmptyNodeFilter: false
-      threadcount: '1'
-    filter: 'name: ec2-node-ubuntu '
-  nodesSelectedByDefault: true
   plugins:
     ExecutionLifecycle: {}
   scheduleEnabled: true

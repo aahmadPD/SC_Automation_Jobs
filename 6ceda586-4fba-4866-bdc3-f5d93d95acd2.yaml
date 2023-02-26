@@ -1,11 +1,12 @@
 - defaultTab: nodes
-  description: |
-    A simple example of triggering an Azure Devops pipeline from a Workflow.
-    This could be used as part of a remediation/rebuild flow
-
-    The Bearer token is stored in the key store, and it should be easy to modify to add extra fields and options
-
-    This could be used as a starter for more complex interactions.
+  description: "# Trigger Azure Devops\nWritten by: Justyn Roberts\n\nA simple example\
+    \ of triggering an Azure Devops pipeline from a Workflow.\nThis could be used\
+    \ as part of a remediation/rebuild flow\n\nThis could be used as a starter for\
+    \ more complex interactions.\n\n| Title| Data | \n| --- | --- | \n| Target Platform:|\
+    \ **OSS,PAOP,RBA** |\n\n\n|Assumptions:|\n| --- | \n| RBA has a Runner installed\
+    \ or PAOP | \n|The Bearer token is stored in the key store, and it should be easy\
+    \ to modify to add extra fields and options|\n**Distribution**\n\n`Supplied as-is\
+    \ for reference. No implied functionality or support for this example.`"
   executionEnabled: false
   group: 🛠 CD-CI Automation 🛠
   id: 6ceda586-4fba-4866-bdc3-f5d93d95acd2
@@ -39,10 +40,9 @@
     label: User API  key - Stored in Vault.
     name: key
     secure: true
-    storagePath: keys/pd-automation-APIkey
     valueExposed: true
   plugins:
-    ExecutionLifecycle: null
+    ExecutionLifecycle: {}
   scheduleEnabled: true
   schedules: []
   sequence:
