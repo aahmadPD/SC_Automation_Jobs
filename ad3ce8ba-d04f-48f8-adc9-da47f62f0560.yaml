@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 🟥 Ansible Playbooks 🟥
   id: ad3ce8ba-d04f-48f8-adc9-da47f62f0560
   loglevel: INFO

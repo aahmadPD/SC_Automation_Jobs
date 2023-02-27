@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: '🐳 K8''s Management 🐳 '
   id: 88787e4b-0c11-4df2-9d4c-96823de81e9b
   loglevel: INFO

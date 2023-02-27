@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: ⚙️ Config Management ⚙️
   id: 6c72a3f4-0102-4b68-b90d-d3aa0791d7e8
   loglevel: INFO

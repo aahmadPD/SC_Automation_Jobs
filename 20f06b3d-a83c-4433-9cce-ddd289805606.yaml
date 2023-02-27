@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 🏥 Remediation 🏥
   id: 20f06b3d-a83c-4433-9cce-ddd289805606
   loglevel: INFO

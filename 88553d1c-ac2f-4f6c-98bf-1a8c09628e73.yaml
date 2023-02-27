@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: ⏱ Scheduled Jobs ⏱
   id: 88553d1c-ac2f-4f6c-98bf-1a8c09628e73
   loglevel: INFO

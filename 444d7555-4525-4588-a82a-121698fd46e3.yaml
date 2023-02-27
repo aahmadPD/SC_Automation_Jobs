@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: ⌛️ Triage ⌛️
   id: 444d7555-4525-4588-a82a-121698fd46e3
   loglevel: INFO

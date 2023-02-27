@@ -8,7 +8,7 @@
     \n| Target Platform:| **OSS,PAOP,RBA** |\n\n\n|Assumptions:|\n| --- | \n| RBA\
     \ has a Runner installed or PAOP | \n\n**Distribution**\n\n`Supplied as-is for\
     \ reference. No implied functionality or support for this example.`"
-  executionEnabled: false
+  executionEnabled: true
   group: 🛠 CD-CI Automation 🛠
   id: b3794b22-d4d4-44de-8441-0b26bc6173af
   loglevel: INFO

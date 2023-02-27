@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 👥 Active Directory Management 👥
   id: 0351faab-fb46-470a-b095-38c6338c1419
   loglevel: INFO

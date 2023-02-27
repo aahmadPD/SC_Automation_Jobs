@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: ☁️ Global Cloud Management ☁️
   id: a7ef5e9d-1f1b-49de-bf1b-c3f0944e3328
   loglevel: INFO

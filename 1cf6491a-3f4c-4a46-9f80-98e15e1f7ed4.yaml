@@ -35,7 +35,7 @@
     weekday:
       day: MON-FRI
     year: '*'
-  scheduleEnabled: true
+  scheduleEnabled: false
   schedules: []
   sequence:
     commands:

@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: ♻️ Decomissioning ♻️
   id: bab7ccbc-8dcd-49c3-89c5-9f322f48d81f
   loglevel: INFO

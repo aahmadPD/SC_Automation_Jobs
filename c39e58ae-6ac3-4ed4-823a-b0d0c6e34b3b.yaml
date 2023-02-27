@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 👤 User Management 👤
   id: c39e58ae-6ac3-4ed4-823a-b0d0c6e34b3b
   loglevel: INFO

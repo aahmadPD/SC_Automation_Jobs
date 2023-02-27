@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 🔐 Patching 🔐
   id: ae49c666-dbba-433f-89bf-897a17008f08
   loglevel: INFO

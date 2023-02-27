@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 🔒 Security Tasks 🔒
   id: 6e76efd3-151f-445b-83e7-1ee463ee7c09
   loglevel: INFO

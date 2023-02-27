@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: false
+  executionEnabled: true
   group: 🗄 Infrastructure Provisioning 🗄
   id: 2e10dace-e848-426e-8916-231ac06b856a
   loglevel: INFO
