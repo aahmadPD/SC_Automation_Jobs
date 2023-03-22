@@ -14,7 +14,7 @@
      - Linux Tested
 
     **Documentation:** [Job Options](https://docs.rundeck.com/docs/manual/job-options.html#job-options)
-  executionEnabled: true
+  executionEnabled: false
   group: 👣 Your First Steps in Automation 👣
   id: 79e90b84-5adb-4285-be1f-9fb51250babf
   loglevel: INFO

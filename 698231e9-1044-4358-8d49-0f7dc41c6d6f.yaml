@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🛟 Disaster Recovery 🛟
   id: 698231e9-1044-4358-8d49-0f7dc41c6d6f
   loglevel: INFO

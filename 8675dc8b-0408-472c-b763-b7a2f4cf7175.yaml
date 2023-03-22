@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 💾 Backups 💾
   id: 8675dc8b-0408-472c-b763-b7a2f4cf7175
   loglevel: INFO

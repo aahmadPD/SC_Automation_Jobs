@@ -6,7 +6,7 @@
     \ --- | \n| RBA has a Runner installed or PAOP | \n| Windows Runner | \n\n\n\n\
     **Distribution**\n\n`Supplied as-is for reference. No implied functionality or\
     \ support for this example.`\n"
-  executionEnabled: true
+  executionEnabled: false
   group: 🩻 Diagnostics 🩻
   id: d34fc1cb-052d-47b3-8af8-8000d164dabe
   loglevel: INFO

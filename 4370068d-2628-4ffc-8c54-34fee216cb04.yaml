@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🛠 Network Configuration 🛠
   id: 4370068d-2628-4ffc-8c54-34fee216cb04
   loglevel: INFO

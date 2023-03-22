@@ -5,7 +5,7 @@
     <br>Run to see how it works, Edit the work flow to understand the syntax and flow.\n\
     **Assumptions:**\n\n - RBA with Runner Installed OR Self Hosted (PAOP)\n - Linux/Windows\
     \ compatible\n\n**Documentation:** Not Applicable"
-  executionEnabled: true
+  executionEnabled: false
   group: 👣 Your First Steps in Automation 👣
   id: a6eeac08-7aad-4c5f-b8d4-4a0380329d42
   loglevel: INFO

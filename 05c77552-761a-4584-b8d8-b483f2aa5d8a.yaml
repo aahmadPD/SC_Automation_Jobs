@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🗜 Batch Jobs 🗜
   id: 05c77552-761a-4584-b8d8-b483f2aa5d8a
   loglevel: INFO

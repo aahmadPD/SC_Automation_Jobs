@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 📞 Call Center Automation 📞
   id: ac787112-e1d4-4f22-9777-b8c2dc841850
   loglevel: INFO

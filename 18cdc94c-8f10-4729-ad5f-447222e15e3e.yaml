@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🟩 Builds 🟩
   id: 18cdc94c-8f10-4729-ad5f-447222e15e3e
   loglevel: INFO

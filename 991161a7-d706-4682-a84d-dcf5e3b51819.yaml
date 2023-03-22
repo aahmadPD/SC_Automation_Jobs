@@ -7,7 +7,7 @@
     \ or PAOP | \n| Access to Slack API Key| \n| Access to Slack Via Webhooks | \n\
     \n**Distribution**\n\n`Supplied as-is for reference. No implied functionality\
     \ or support for this example.`"
-  executionEnabled: true
+  executionEnabled: false
   group: 📝 Reporting 📝
   id: 991161a7-d706-4682-a84d-dcf5e3b51819
   loglevel: INFO

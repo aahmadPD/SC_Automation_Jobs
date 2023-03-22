@@ -17,7 +17,7 @@
      - Linux/Windows compatible
 
     **Documentation:** Not Applicable
-  executionEnabled: true
+  executionEnabled: false
   group: 👣 Your First Steps in Automation 👣
   id: 3ef37972-193f-42ce-b8f6-bbb139bb23b9
   loglevel: INFO

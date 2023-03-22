@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: ✅ Deployments ✅
   id: f7560d6e-56bf-4b77-97ae-5524f6098128
   loglevel: INFO

@@ -10,7 +10,7 @@
     \ Tab to view the ruleset\n2. Simply start the job by clicking on the button [Run-Job-Now]\n\
     3. This job has `safe-execution` and can be run multiple times.\n\n***Author:***\
     \ @dhuggins\n***LastUpdate:*** initial release\n\n"
-  executionEnabled: true
+  executionEnabled: false
   group: 🩻 Diagnostics 🩻
   id: ad07d3f8-2403-4838-b11a-6c8fdf60fb13
   loglevel: INFO

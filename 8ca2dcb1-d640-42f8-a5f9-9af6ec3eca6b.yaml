@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🛝 Sandbox Environments 🛝
   id: 8ca2dcb1-d640-42f8-a5f9-9af6ec3eca6b
   loglevel: INFO

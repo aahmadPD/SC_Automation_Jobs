@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 👩🏻‍🎓 MSP Onboarding 👩🏻‍🎓
   id: 43711e32-d071-42b1-a3ad-343eeaf60fc8
   loglevel: INFO

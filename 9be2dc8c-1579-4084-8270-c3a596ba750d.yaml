@@ -6,7 +6,7 @@
     - Parse output and provide visual indicators \n\n**Assumptions:**\n\n - RBA with\
     \ Runner Installed OR Self Hosted (PAOP)\n - Linux Tested\n\n**Documentation:**\
     \ [Log Filters](https://docs.rundeck.com/docs/manual/log-filters/)\n"
-  executionEnabled: true
+  executionEnabled: false
   group: 👣 Your First Steps in Automation 👣
   id: 9be2dc8c-1579-4084-8270-c3a596ba750d
   loglevel: INFO

@@ -4,7 +4,7 @@
     \ response\n\n<br>Could easily be extended or modified\n**Assumptions:**\n\n -\
     \ RBA with Runner Installed OR Self Hosted (PAOP)\n - Linux/Windows compatible\n\
     \n**Documentation:** [Rulesets](https://docs.rundeck.com/docs/manual/workflow-strategies/ruleset.html#writing-rules)"
-  executionEnabled: true
+  executionEnabled: false
   group: 👣 Your First Steps in Automation 👣
   id: 9212fefd-0174-4639-a0cf-ef6e51b8adc5
   loglevel: INFO

@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: '🧮 Data Processing 🧮 '
   id: 98a02462-7426-4252-aa4e-678648b303a5
   loglevel: INFO

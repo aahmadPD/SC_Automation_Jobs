@@ -1,6 +1,6 @@
 - defaultTab: output
   description: Check Apache Status with Progress Badge
-  executionEnabled: true
+  executionEnabled: false
   group: 🩻 Diagnostics 🩻
   id: db426317-552c-48b4-be17-082f73dc51b0
   loglevel: INFO

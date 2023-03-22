@@ -7,7 +7,7 @@
     \ installed or PAOP | \n|The Bearer token is stored in the key store, and it should\
     \ be easy to modify to add extra fields and options|\n**Distribution**\n\n`Supplied\
     \ as-is for reference. No implied functionality or support for this example.`"
-  executionEnabled: true
+  executionEnabled: false
   group: 🛠 CD-CI Automation 🛠
   id: 58afeaa6-1056-4cbe-a28a-d8a015c17ccb
   loglevel: INFO

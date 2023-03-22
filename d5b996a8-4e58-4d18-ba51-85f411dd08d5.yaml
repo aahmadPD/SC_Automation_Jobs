@@ -16,7 +16,7 @@
     \ the jpg file to view it.\nIf you added a SSL site, you could view the files\
     \ in the browser.\n\n\n\n`Supplied as-is for reference. No implied functionality\
     \ or support for this example.`"
-  executionEnabled: true
+  executionEnabled: false
   group: 🩻 Diagnostics 🩻
   id: d5b996a8-4e58-4d18-ba51-85f411dd08d5
   loglevel: INFO

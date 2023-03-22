@@ -18,7 +18,7 @@
      - Linux Tested
 
     **Documentation:** Not Applicable
-  executionEnabled: true
+  executionEnabled: false
   group: 👣 Your First Steps in Automation 👣
   id: 1cf6491a-3f4c-4a46-9f80-98e15e1f7ed4
   loglevel: INFO

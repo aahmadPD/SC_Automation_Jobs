@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🛢 Database Management 🛢
   id: 54a655f1-4687-4893-b511-b0ad9705436d
   loglevel: INFO

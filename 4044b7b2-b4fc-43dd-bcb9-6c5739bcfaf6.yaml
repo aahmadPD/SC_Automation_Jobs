@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🏙 SAP Management 🏙
   id: 4044b7b2-b4fc-43dd-bcb9-6c5739bcfaf6
   loglevel: INFO

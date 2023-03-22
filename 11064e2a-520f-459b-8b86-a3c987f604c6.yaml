@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   group: 🛠 Windows Maintenance 🛠
   id: 11064e2a-520f-459b-8b86-a3c987f604c6
   loglevel: INFO
