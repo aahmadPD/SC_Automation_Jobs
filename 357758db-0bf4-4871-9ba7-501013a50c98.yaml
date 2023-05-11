@@ -72,7 +72,7 @@
           {
           "Content-Type": "application/json",
           "Accept": "application/json",
-          "Authorization": "Basic c3VuV0w2d2JYcGo3THc6bm9TRmNiVUlPOXlaV2tsVnhpUTJ6UzlybjhXUUlWcHE0OU40bDlkNk1CWGR1TWhKVkxJOVJLZzVTTzRJc1F6cw=="
+          "Authorization": "Basic ADD KEY"
 
           }
         method: GET
@@ -101,7 +101,7 @@
       nodeStep: false
       type: export-var
     - configuration:
-        api_token: keys/project/Solution-Consultants/pdt-clouddemo-api
+        api_token: ADD KEY
         email: fieldengineers@example.com
         incident_id: ${option.pd_incident_id}
         note: 'Link to Job search results: https://service.sumologic.com/ui/#/lookup/000000000320684A'

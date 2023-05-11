@@ -22,7 +22,7 @@
   - hidden: true
     name: ms-teams-connector-url
     secure: true
-    storagePath: keys/project/pdt-dridge/ms-teams-diagnostic-connector-url
+    storagePath: keys/project/AddyourconnectorURL
     valueExposed: true
   plugins:
     ExecutionLifecycle: {}
