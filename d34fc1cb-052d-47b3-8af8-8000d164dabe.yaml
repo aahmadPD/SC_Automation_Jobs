@@ -1,5 +1,5 @@
 - defaultTab: nodes
-  description: "# 15 Windows Powershell Tasks\nWritten by: Justyn Roberts\n\nA quick\
+  description: "\n15 Windows Powershell Tasks\nWritten by: Justyn Roberts\n\nA quick\
     \ example of running PowerShell within Process Automation, and how you might execute\
     \ powershell for additional diagnostics or remediation.\n\n\n| Title| Data | \n\
     | --- | --- | \n| Target Platform:| **OSS,PAOP,RBA** |\n\n\n|Assumptions:|\n|\
